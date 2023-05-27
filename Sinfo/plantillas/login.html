@@ -15,7 +15,7 @@
 			{% csrf_token %}
 
       <main class="form-signin w-100 m-auto" style="margin:auto;">
-        <form style="margin: auto;">
+        <form class="form-signin">
           <img class="mb-4" src="https://waimafundacion.org/sitio/wp-content/uploads/2018/04/cropped-logo.png" alt="" width="200" height="200">
           <h1 class="h3 mb-3 fw-normal">Por favor inicie sesión</h1>
       
@@ -140,6 +140,13 @@
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  } 
+	
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto; /* Agrega esta línea para centrar horizontalmente */
+    margin-top: 40px; /* Ajusta el margen superior según sea necesario */
   }
 </style>
 
